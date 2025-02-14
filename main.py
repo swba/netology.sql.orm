@@ -24,8 +24,8 @@ def main():
         tests = {
             "%press%": "Publisher's name should include \"press\":",
             "3": "Publisher has ID 3:",
-            "Pearson": "Publisher is Pearson",
-            "%reilly": "Publisher's name ends with \"reilly\"",
+            "Pearson": "Publisher is Pearson:",
+            "%reilly": "Publisher's name ends with \"reilly\":",
         }
         for q in tests:
             print(tests[q])
